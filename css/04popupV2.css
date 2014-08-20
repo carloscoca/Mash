@@ -1,0 +1,62 @@
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ frontPopup */
+.limz_frontPopup{position:fixed; width:100%; height:100%;z-index:1001;top:0;left:0;font-size:2em;text-align:center;}
+.limz_frontPopup_outerContainer{display:inline-block;position:relative;width:90%;margin-top:80px;z-index:2;}
+.limz_frontPopup_innerContainer{padding:0.2em;}
+
+.limz_frontPopup_mask{width:100%;height:100%;position:absolute;top:0;left:0;background:rgba(0, 0, 0, 0.7);}
+
+
+
+@media all and (min-width:1500px) {
+    .limz_frontPopup_outerContainer{width:1200px;}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ sharing Popup */
+#mash_popup_sharing{width:1px;height:1px;overflow:hidden;position:fixed;top:0;left:0;z-index:1001;}
+#mash_popup_sharing.mash_visible{width:100%;height:100%;}
+
+
+.mash_popup_mask{width:100%;height:100%;position:absolute;background:rgba(0, 0, 0, 0.7);}
+
+
+.mash_popup_box{background:#FFF;position:absolute;}
+
+.mash_popup_header{color:#555;background:transparent;font-size:2em;text-align:center;font-weight:400;padding-top:1em;}
+.mash_popup_content{font-size:1.2em;text-align:center;padding:1em;color:#555;}
+
+.mash_popup_cancel{position:absolute;right:-0.75em;top:-0.75em;width:1.5em;height:1.5em;font-weight:600;font-size:0.65em;line-height:1.45em;background:#69a733;color:#FFF;cursor:pointer;}
+
+.mash_popup_cancel{
+    -webkit-border-radius: 2000px;
+    -moz-border-radius: 2000px;
+    border-radius: 2000px;
+}
+
+.mash_popup_box{
+    -moz-box-shadow:    1px 1px 10px 0 rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.8);
+    box-shadow:         1px 1px 10px 0 rgba(0, 0, 0, 0.8);
+}
+.mash_popup_box{
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+@media all and (max-width:499px) {
+    .mash_popup_box{font-size:0.7em;}
+}
+
+@media all and (min-width:500px) and (max-width:759px) {
+    .mash_popup_box{font-size:0.8em;}
+}
+
+@media all and (max-width:759px) {
+    .mash_popup_box{width:90%;margin-left:5%;}
+}
+
+
+
+@media all and (min-width:760px) {
+    .mash_popup_box{left:50%;width:600px;margin-left:-300px;}
+}

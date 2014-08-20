@@ -1,0 +1,59 @@
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ footer general*/
+#footer a:hover{color:#69A833;}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ footer_menu_top*/
+.menu-footer-menu-top-container{text-align:center;line-height:0;}
+#footer_menu_top{display:inline-block;width:100%;font-size:0.8em;color:#333;padding-bottom:1em;}
+#footer_menu_top li{display:inline-block;list-style-type:none;line-height:2em;}
+
+@media all and (max-width:759px) {
+    #footer_menu_top{padding-top:1em;border-top:1px solid #CCC;background: rgba(0, 0, 0, 0.05);}
+    #footer_menu_top li{float:left;width:50%;}
+}
+
+@media all and (min-width:760px) {
+    #footer_menu_top li + li:before{content: " | ";padding: 0 0.3em;}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ mobile_search*/
+#mobile_search{background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);border-top: 1px solid #CCCCCC;padding: 1em 0;}
+#mobile_search fieldset{border:0 none;}
+#mobile_search form{width:90%;margin-left:5%;}
+#mobile_search label{display:none;}
+#mobile_search button{float:left;border:0 none;background:transparent;font-size:1em;color:#444;cursor:pointer;}
+#mobile_search input#search{float:left;width:80px; background:transparent;font-size:12px;border:0 none;border-bottom:1px solid #c0c0c0;color:#999;}
+
+#mobile_search input#search{width:80%;border:1px solid #c0c0c0; font-size:1em;padding:0.05em 0.4em;}
+#mobile_search button{width:18%;text-align:center;float:right;border:1px solid #c0c0c0;font-size:1em;}
+
+
+@media all and (min-width:760px) {
+    #mobile_search{display:none;}
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ footer*/
+#footer_html5{float:left;width:100%;}
+#footer{float:left;width:100%;}
+
+
+
+#mainFooter{float:left;width:100%;border-top:1px solid #c6c6c6;color:#8a8a8a;}
+
+.footer_section{float:left;clear:both;width:100%;padding:1.8em 0;}
+.footer_section_border{border-top:1px solid #c6c6c6;}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ mob*/
+@media all and (max-width:759px) {
+    #footer{margin-top:3em;}
+    .footer_section{padding:1.2em 0;}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ tab*/
+@media all and (min-width:760px) {
+    #footer{margin-top:3em;}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ desk*/
+@media all and (min-width:960px) {
+    #footer{margin-top:10em;}
+}

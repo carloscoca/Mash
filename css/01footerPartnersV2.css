@@ -1,0 +1,41 @@
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ partners*/
+.footer_partners_block{float:left;}
+.footer_partners_block img{float:left;}
+
+.footer_partners_block h3{float:left;font-weight:200;color:#000;font-size:1em;font-family:lane, Helvetica, Arial, sans-serif;}
+.footer_partners_block p{float:left;clear:both;font-weight:200;font-size:0.8em;}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ mob*/
+@media all and (max-width:759px) {
+    .footer_partners_block{width:100%;}
+    .footer_partners_text{float:left;margin-top:1.2em;}
+
+    #footer_microsoft{margin-top:1.2em;}
+
+    #footer_sap img{width:100%;}
+    #footer_microsoft img{width:70%;}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ tab*/
+@media all and (min-width:760px) and (max-width:960px) {
+    .footer_partners_block{width:100%;}
+    .footer_partners_text{float:right;width:48%;}
+
+    #footer_sap{width:100%;}
+    #footer_microsoft{margin-top:1.6em;}
+
+    #footer_sap img{width:46%;}
+    #footer_microsoft img{width:28%;}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ desk*/
+@media all and (min-width:960px) {
+    .footer_partners_block{width:48%;}
+    .footer_partners_text{float:right;width:48%;}
+
+    #footer_microsoft{float:right;}
+
+    #footer_sap img{width:48%;}
+    #footer_microsoft img{width:36%;}
+}

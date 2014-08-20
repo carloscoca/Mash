@@ -1,0 +1,109 @@
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ module */
+.limz_module{position:relative;width:100%;display:inline-block;text-align:left;}
+.limz_align_center{text-align:center;}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ image */
+.limz_image{float:left;width:100%;}
+.limz_image_noResize{width:auto;}
+.limz_image_inline{display:inline;float:none;}
+
+@media all and (min-width:760px) {
+    .limz_width_90p{width:90%;}
+    .limz_width_80p{width:80%;}
+    .limz_width_70p{width:70%;}
+    .limz_width_60p{width:60%;}
+    .limz_width_50p{width:50%;}
+
+    .limz_image_center.limz_width_90p{margin-left:5%;}
+    .limz_image_center.limz_width_80p{margin-left:10%;}
+    .limz_image_center.limz_width_70p{margin-left:15%;}
+    .limz_image_center.limz_width_60p{margin-left:20%;}
+    .limz_image_center.limz_width_50p{margin-left:25%;}
+
+    .limz_image.limz_image_right{float:right;}
+}
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ accordion */
+.limz_accordion_header{outline:none;cursor:pointer;}
+.limz_accordion_body{float:left;clear:both;width:100%;}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ table */
+.limz_table{width:100%;float:left;position:relative;}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ editor */
+div.limz_editor,
+div.limz_editor_pseudo
+{float:left;width:100%;}
+
+.limz_editor_alignCenter{text-align:center;}
+.limz_editor_alignRight{text-align:right;}
+
+
+@media all and (min-width:760px) {
+    div.limz_editor.limz_editor_indent_5p{margin-left:2.5%;width:95%;}
+    div.limz_editor.limz_editor_indent_10p{margin-left:5%;width:90%;}
+    div.limz_editor.limz_editor_indent_20p{margin-left:10%;width:80%;}
+    div.limz_editor.limz_editor_indent_30p{margin-left:15%;width:70%;}
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ youtube */
+.limz_youtube {width:100%;position: relative;padding-bottom: 56.25%;padding-top: 30px; height: 0;}
+
+
+.limz_youtube iframe,
+.limz_youtube object,
+.limz_youtube embed
+{
+    position: absolute;top: 0;left: 0;width: 100%;height: 100%;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ slideShare */
+
+.limz_slideShare {width:100%;position: relative;padding-bottom: 56.25%;height: 0;}
+
+.limz_slideShare iframe,
+.limz_slideShare object,
+.limz_slideShare embed
+{
+    position: absolute;top: 0;left: 0;width: 100%;height: 100%;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ youtube and slideShare */
+.limz_slideShare.limz_image_right, .limz_youtube.limz_image_right{float:right;}
+
+@media all and (min-width:760px) {
+    .limz_slideShare.limz_width_90p, .limz_youtube.limz_width_90p{width:90%; padding-bottom: 50.625%;}
+    .limz_slideShare.limz_width_80p, .limz_youtube.limz_width_80p{width:80%; padding-bottom: 45.00%;}
+    .limz_slideShare.limz_width_70p, .limz_youtube.limz_width_70p{width:70%; padding-bottom: 39.375%;}
+    .limz_slideShare.limz_width_60p, .limz_youtube.limz_width_60p{width:60%; padding-bottom: 33.75%;}
+    .limz_slideShare.limz_width_50p, .limz_youtube.limz_width_50p{width:50%; padding-bottom: 28.125%;}
+}
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ slider */
+.limz_slider{width:100%;overflow:hidden;}
+.limz_slide{width:100%;position:relative;overflow:hidden;}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ button */
+.limz_button{position:relative;}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ tiles */
+.limz_tile{position:relative;float:left;width:100%;overflow:hidden;}
+
+@media all and (min-width:760px){
+    .limz_tile .limz_sizer{height:100%;}
+    .limz_tile .limz_content{position:absolute;top:0;bottom:0;left:0;right:0;}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ shapes */
+.limz_shape_circle{
+    -webkit-border-radius: 5000px;
+    -moz-border-radius: 5000px;
+    border-radius: 5000px;
+}

@@ -1,0 +1,206 @@
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ modules */
+.limz_module{width:90%;max-width:1200px;line-height:1em;}
+.limz_module.limz_module_largeWidth{width:100%;max-width:1600px;}
+.limz_module.limz_module_fullWidth{float:left;width:90%;padding-left:5%;padding-right:5%;max-width:none;margin-left:0;margin-right:0;}
+
+.limz_container_widthLimiting{float:left;width:100%;}
+
+@media all and (min-width:760px) {
+    .limz_module.limz_module_fullWidth.limz_module_fullWidth_noSidePadding{width:100%;padding-left:0;padding-right:0;}
+}
+
+@media all and (min-width:1600px) {
+    .limz_module{width:100%;max-width:1200px;margin-left:200px;margin-right:200px;}
+    .limz_module.limz_module_largeWidth{margin-left:0;margin-right:0;}
+
+    .limz_container_widthLimiting{float:none;width:100%;max-width:1200px;margin-left:auto;margin-right:auto;}
+    .limz_widthLimiting_1000{max-width:1000px !important;}
+}
+@media all and (min-width:2000px) {
+    .limz_module{width:100%;max-width:1200px;margin-left:400px;margin-right:400px;}
+    .limz_module.limz_module_largeWidth{margin-left:200px;margin-right:200px;}
+}
+
+.wrapper .limz_module{width:100%;margin-left:0;margin-right:0;}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ mash_table */
+.limz_table_container{width:100%;overflow:auto;}
+table.mash_table {min-width:500px;}
+.mash_table td{border-right:1px solid #ddd;border-top:1px solid #ddd;width:22%;text-align:center;vertical-align:middle;padding:0.8em 0;}
+
+.mash_table tr:first-child td{border-top:0 none;}
+
+.mash_table td:first-child{width:34%;text-align:left;vertical-align: top;padding-right:2em;}
+.mash_table td:last-child{border-right:0 none;}
+
+.mash_table .icon-tick{color:#69A833;}
+.mash_table .notIntegrated{color:#bf3131;font-weight:200;}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ limz_module_separator */
+.limz_module_separator{height:2px;border-top:3px solid rgba(90, 150, 48, 0.08) !important;}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ mash_accordion */
+.mash_accordion .limz_accordion_child {padding:0.8em 0;border-top: 1px solid #ddd;float:left;width:100%;position:relative;}
+.mash_accordion .limz_accordion_child:last-child{border-bottom: 1px solid #ddd;}
+
+.mash_accordion .limz_accordion_child img{float:left;width:2em;margin-right:0.8em;}
+.mash_accordion .limz_accordion_child .headerText{float:left;width:75%;}
+.mash_accordion .limz_accordion_child .accordion_icon{position:absolute;right:0;top:0;font-size:0.8em;color:#ccc;padding-top:1.2em;}
+.mash_accordion .limz_accordion_child .accordion_icon:hover{color:#F69623;}
+
+.mash_accordion .limz_accordion_child .limz_accordion_body{padding:0 0 0 2.8em;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.mash_accordion .limz_accordion_child.textCircle .limz_accordion_body{padding:0;}
+
+@media all and (min-width:760px) {
+    .mash_accordion .limz_accordion_child .headerText{float:left;width:80%;}
+    .mash_accordion .limz_accordion_child .accordion_icon{position:relative;float:right;margin-top:0.7em;margin-right:0.5em;padding-top:0;}
+    .mash_accordion .limz_accordion_child .limz_accordion_body{padding:0 2.8em;}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ mash_doubleButton */
+.mash_doubleButton .limz_button{float:right;width:49%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.mash_doubleButton .limz_button:first-child{float:left;}
+
+@media all and (min-width:960px) {
+    .mash_doubleButton .limz_button{float:none;width:24%;margin:0 1%;}
+    .mash_doubleButton .limz_button:first-child{float:none;}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ image_9_centered_transparent */
+.limz_module_preset_image_9_centered{text-align:center;font-size:1.4em;}
+.limz_module_preset_image_9_centered .limz_container{width:3.7em; display:inline-block;padding:0.7em;}
+
+@media all and (min-width:760px) {
+    .limz_module_preset_image_9_centered{font-size:1em;}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ text_4_centered */
+.limz_module_preset_text_4_centered{text-align:center;font-size:1.4em;}
+.limz_module_preset_text_4_centered .limz_container{display:inline-block;padding:0.7em;vertical-align:top;}
+
+@media all and (max-width:760px) {
+    .limz_module_preset_text_4_centered .limz_container{width:100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+}
+
+@media all and (min-width:760px) {
+    .limz_module_preset_text_4_centered .limz_container{width:11em;}
+    .limz_module_preset_text_4_centered {font-size:1em;}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ imageText_6_centered */
+.limz_module_preset_imageText_6_centered{text-align:center;font-size:1.4em;}
+.limz_module_preset_imageText_6_centered .limz_container{width:6em; display:inline-block;padding:0.7em;vertical-align:top;}
+
+@media all and (min-width:760px) {
+    .limz_module_preset_imageText_6_centered {font-size:1em;}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ columnsThree */
+.limz_module_columnsThree .mash_textContainer{position:relative;float:left;width:100%;}
+
+.limz_module_columnsThree .mash_imageMask{
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:-7px;
+    padding-top:7px;
+    background:url("file:///D|/Projects/img/TileBackLightGreen.png") repeat scroll right top transparent;
+    z-index:2;
+}
+
+.limz_module_columnsThree.limz_module_preset_each_imageAndTextBox p{
+    color:#555;
+    float:left;width:100%;padding:0.1em 0.6em 0.6em;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position:relative;
+    z-index:2;
+}
+@media all and (min-width:760px) {
+    .limz_module_columnsThree.limz_module_preset_each_imageAndTextBox p{
+        min-height:3.9em;
+    }
+}
+
+.limz_module_columnsThree.limz_module_preset_each_imageAndTextBox img{
+    position:relative;
+    z-index:1;
+}
+
+.limz_module_columnsThree.limz_module_preset_each_imageAndTextBox .limz_column{
+    overflow:hidden;
+}
+
+.limz_module_columnsThree.limz_module_preset_each_imageAndTextBox .limz_column:hover p{
+    color:#111;
+}
+
+.limz_module_columnsThree.limz_module_preset_each_imageAndTextBox img{
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.limz_module_columnsThree.limz_module_preset_each_imageAndTextBox .limz_column:hover img{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ columnsFour */
+.limz_module_columnsFour .text{float:left; width:100%; margin-top:0.6em;}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ columnsSix */
+.limz_module_columnsSix .limz_image{float:left;width:100%;}
+.limz_module_columnsSix .limz_editor{float:right;width:100%;margin-top:0.5em;}
+
+@media all and (min-width:760px) {
+    .limz_module_columnsSix .limz_image{width:36%;}
+    .limz_module_columnsSix .limz_editor{width:60%;margin-top:0;}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ closure */
+.limz_module_closure{padding-top:3em;border-top:4px solid rgba(90, 150, 48, 0.08) !important;}
+.limz_module_closure h5{margin-bottom:0.3em;}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ vector tiles */
+.mash_vectorTile{padding:0.6em 0;width:100%;text-align:center;background-size:cover;}
+
+.mash_vectorTile div.limz_editor{max-width:90%;padding:0 5%;}
+
+.mash_vectorTile p{line-height:1.4em;padding-top:0.4em;}
+.mash_vectorTile .limz_button{margin:1em 0 0.6em;}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ vector tiles colors */
+.mash_vectorTile.greenBack{background:url('file:///D|/Projects/img/greenVectorBack.jpg') center bottom no-repeat #69a733;}
+.mash_vectorTile.whiteBack{background:url('file:///D|/Projects/img/lightVectorBack.jpg') center bottom no-repeat #dfdfdf;}
+.mash_vectorTile.blueBack{background:url('file:///D|/Projects/img/blueVectorBack.jpg') center bottom no-repeat #098798;}
+
+
+.greenBack div.limz_editor, .blueBack div.limz_editor,
+.greenBack div.limz_editor p, #content .blueBack div.limz_editor p
+{color:#FFF;}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ whiteBack
+.mash_vectorTile.whiteBack{text-align:left;}
+.mash_vectorTile.whiteBack .limz_button{margin-left:4%;}
+.mash_vectorTile.whiteBack div.limz_editor
+{max-width:60%;padding:0 4%;}
+*/
+.whiteBack div.limz_editor{color:#555;}
+.whiteBack p{color:#777;}

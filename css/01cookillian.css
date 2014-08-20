@@ -1,0 +1,146 @@
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ default look */
+html .cookillian-alert {
+	margin: 0;
+	border: 0 none;
+	background: url("file:///D|/Projects/img/texture.png") repeat scroll 0 0 #FFF;
+	color: #616161;
+	font-size: 1.1em;
+	line-height: 1.4em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+html .cookillian-alert .alert-heading {
+	margin-bottom: 0.6em;
+	font-family: lane, sans-serif;
+	font-size: 3em;
+	font-weight: normal;
+	margin-top: 0.5em;
+	color: #000;
+}
+
+html .cookillian-alert p {
+	font-size: 1.1em;
+}
+
+html .cookillian-alert p a {
+	color: #f69623;
+}
+
+html .cookillian-alert .buttons {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+html .cookillian-alert .btn {
+	border: 0 none;
+	color: #fff;
+	font-weight: 600;
+	padding: 0.2em 2em;
+	font-size: 0.9em;
+	line-height: 1.85em;
+	text-shadow: none !important;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+html .cookillian-alert .btn-ok {
+	background: #69a833;
+	border-bottom: 2px solid #4b842d;
+}
+
+html .cookillian-alert .btn-ok:hover {
+	background: #69a833;
+	color: #000;
+}
+
+html .cookillian-alert .btn-no {
+	background: #f69623;
+	border-bottom: 2px solid #d17922;
+}
+
+html .cookillian-alert .btn-no:hover {
+	background: #f69623;
+	color: #000;
+}
+
+@media all and (min-width:1200px) {
+
+html .cookillian-alert .alert-heading,  html .cookillian-alert p,  html .cookillian-alert .buttons {
+	float: none;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1200px;
+}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ one look */
+html.template_ONE .cookillian-alert * {
+	text-align: center;
+}
+
+html.template_ONE .cookillian-alert {
+	background: #FFF;
+	color: #000;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+html.template_ONE .cookillian-alert p a {
+	color: #2dcc70;
+}
+
+html.template_ONE .cookillian-alert .alert-heading {
+	color: #000;
+	margin-bottom: 1em;
+}
+
+html.template_ONE .cookillian-alert .buttons {
+	margin-top: 3em;
+}
+
+html.template_ONE .cookillian-alert .btn {
+	border: 0 none;
+	color: #fff;
+	font-weight: 600;
+	padding: 0.2em 2em;
+	font-size: 0.9em;
+	line-height: 1.85em;
+	text-shadow: none !important;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+html.template_ONE .cookillian-alert .btn-ok {
+	background: #2dcc70;
+	border-bottom: 0 none;
+}
+
+html.template_ONE .cookillian-alert .btn-ok:hover {
+	background: #2dcc70;
+	color: #000;
+}
+
+html.template_ONE .cookillian-alert .btn-no {
+	background: #c82127;
+	border-bottom: 0 none;
+}
+
+html.template_ONE .cookillian-alert .btn-no:hover {
+	background: #c82127;
+	color: #000;
+}
+
+@media all and (min-width:1200px) {
+
+html.template_ONE .cookillian-alert .alert-heading,  html.template_ONE .cookillian-alert p,  html.template_ONE .cookillian-alert .buttons {
+	max-width: 900px;
+}
+}

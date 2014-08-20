@@ -1,0 +1,38 @@
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ pardot */
+#pardot_contactForm{height:700px;}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ maps */
+#googleMaps{float:left;width:100%;margin-top:2em;}
+#googleMapsHeader{position:relative;float:left;width:100%;margin-bottom:1em;}
+#googleMapsHeader h2{float:left;}
+#googleMapsHeader ul{float:left;margin-top:1em;}
+#googleMapsHeader ul li{float:left; list-style-type:none;margin-right:1em;cursor:pointer;}
+#googleMapsHeader ul li:hover p{color:#000;}
+#googleMapsHeader ul li:last-child{margin-right:0;}
+#googleMapsHeader ul li.limz_flag p{color:#69a833;}
+
+#googleMapsCanvas{position:relative;float:left;width:100%;}
+#googleMapsInfo{position:absolute;z-index:2;font-size:0.9em;}
+#googleMapsInfo h2{font-size:1.4em;}
+#googleMapsInfo p{line-height:1.4em;margin-top:1em;}
+
+
+#limz_googleMaps{float:left;width:100%;height:300px;}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ mob */
+@media all and (max-width:759px) {
+    #googleMapsHeader ul{padding: 0.5em 0;border-top:3px solid rgba(90, 150, 48, 0.08);border-bottom:3px solid rgba(90, 150, 48, 0.08);}
+    #googleMapsCanvas{padding-top:11em;}
+    #googleMapsInfo{position:absolute;z-index:2;top:0;left:0;}
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ tab */
+@media all and (min-width:760px) {
+    #googleMapsHeader ul{float:right;margin-top:1em;}
+
+    #googleMapsInfo{top:6em;left:3em;background:rgba(115, 177, 58, 0.9);color:#FFF;padding:0.8em;}
+    #googleMapsInfo p{color:#FFF;}
+
+    #limz_googleMaps{height:410px;}
+
+}

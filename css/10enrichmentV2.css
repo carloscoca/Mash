@@ -1,0 +1,158 @@
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ icons */
+.icon-boxTwitter{color:#42cdf6;}
+.icon-boxFacebook{color:#3c5897;}
+.icon-boxYouTube{color:#cc332d;}
+.icon-boxLinkedin{color:#0374b6;}
+.icon-boxGooglePlus{color:#d1402d;}
+.icon-boxSmartPhone{color:#69A833;}
+.icon-boxXing{color:#015B60;}
+.icon-boxMail{}
+
+
+a:hover .icon-boxTwitter{color: #22a9d1;}
+a:hover .icon-boxFacebook{color: #363a73;}
+a:hover .icon-boxYouTube{color: #b4332d;}
+a:hover .icon-boxLinkedin{color: #035a97;}
+a:hover .icon-boxGooglePlus{color: #b4332d;}
+a:hover .icon-boxSmartPhone{color: #4b812a;}
+a:hover .icon-boxXing{color: #014045;}
+
+
+.limz_iconBack{background:#FFF;height: 0.8em;margin:0.1em;display:inline-block;}
+.limz_iconBack [class^=icon-box]{margin:-0.1em;float:left;}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ borders */
+#mashSubMenu li a{  /* 2px all */
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+#mash_one_register p,
+.mash_one_step,
+.mash_one_signup .limz_form_error_infoBox,
+.mash_one_signUp_success,
+.mash_one_actionButton,
+.mash_one_signup input,
+.mash_one_signup button,
+.limz_slider_navigation li,
+.limz_frontPopup_outerContainer,
+.limz_dialog_content{  /* 5px all */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+#mash_one_communityLogin
+{  /* 8px all */
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.mash_one_signup_back
+{  /* 10px all */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#menu_mobile_button{  /* 3px all */
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.limz_button{  /* 2px all */
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ iconSpecial */
+[class^=icon-box]{
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    border-radius: 0.2em;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ rgba */
+.limz_frontPopup_outerContainer{
+    background:rgba(0, 0, 0, 0.4);
+}
+#mainFooter{
+     background:rgba(0, 0, 0, 0.05);
+    /* filter in file for ie smaller 9 */
+ }
+
+.limz_shape_circle_filling{
+    background: rgba(105, 168, 51, 0.9);
+    /* filter in file for ie smaller 9 */
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ shadow */
+.mash_one_signup .limz_form_error_infoBox
+{
+    -moz-box-shadow:    1px 1px 6px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 1px 1px 6px 0 rgba(0, 0, 0, 0.4);
+    box-shadow:         1px 1px 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+.limz_dialog_content,
+.sub-menuContainer,
+#mashSubMenu.mashSubMenuFixed{
+    -moz-box-shadow:    1px 1px 4px 0 rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.2);
+    box-shadow:         1px 1px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.blog_theme_image
+{
+    -moz-box-shadow:    inset 1px 1px 4px 0 rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: inset 1px 1px 4px 0 rgba(0, 0, 0, 0.2);
+    box-shadow:         inset 1px 1px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+#limz_googleMaps{
+    -moz-box-shadow:    1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+    box-shadow:         1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.limz_shadow_1{
+    text-shadow: 2px 2px 0 black;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ unused */
+
+
+
+#xx{  /* 10px all */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#xx{  /* 10px top */
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#xx{ /* 5px right */
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

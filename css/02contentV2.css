@@ -1,0 +1,112 @@
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ content */
+#content{width:100%;float:left;text-align:center;line-height:0;}
+
+#mainContentLeft{float:left;width:100%;}
+#mainContentRight{float:left;width:100%;}
+
+#closure{float:left;width:100%;clear:both;}
+
+
+
+
+.mash_content #sidebar_connect{float:left;margin-top:1em;}
+.mash_content #sidebar_connect ul{float:left;padding-left:0;}
+.mash_content #sidebar_connect li{list-style-type:none;list-style-position:outside;float:left;font-size:1.5em;line-height:1.6em;margin-right:0.3em;}
+.mash_content #sidebar_connect li a{float:left;}
+
+.limz_fontSize_small{font-size:0.8em;}
+.limz_fontSize_tiny{font-size:0.7em;}
+
+
+.mash_content {line-height:1em;}
+
+.mash_content h1, .mash_content h2, .mash_content h3, .mash_content h4, .mash_content h5, .mash_content h6
+{font-family:lane, Arial, Helvetica, sans-serif;font-weight:300;}
+
+.mash_content h1.limz_font_openSans, .mash_content h2.limz_font_openSans, .mash_content h3.limz_font_openSans, .mash_content h4.limz_font_openSans, .mash_content h5.limz_font_openSans, .mash_content h6.limz_font_openSans
+{font-family:"Open Sans", Arial, Helvetica, sans-serif;color:#5e5e5e;line-height:1.4em;}
+
+.limz_font_openSans{
+    font-family:"Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.mash_content h1{font-size:2.6em;line-height:1.2em;}
+.mash_content h2{font-size:2em;line-height:1.2em;}
+.mash_content h3{font-size:1.6em;line-height:1.2em;}
+.mash_content h4{font-size:1.2em;line-height:1.2em;}
+.mash_content h5{font-size:1em;line-height:1.2em;}
+.mash_content h6{font-size:0.7em;line-height:1.2em;font-weight:bold;}
+
+.mash_content p{line-height:1.8em;font-weight:300;color:#777;}
+
+.mash_content p a{color:#f69623;font-weight:600;}
+.mash_content p a:hover{color:#69A833;}
+
+.mash_content p a.limz_button{color:#FFF;font-size:0.87em;line-height:1.5em;}
+
+.mash_content li a{color:#f69623;font-weight:600;}
+.mash_content li a:hover{color:#69A833;}
+
+.mash_content sup{font-size:x-small; vertical-align:top;}
+.mash_content sub{font-size:x-small; vertical-align:bottom;}
+
+.mash_content .limz_editor span.limz_a_icon{font-size:1.4em;}
+.mash_content .limz_editor a .icon-right{font-size:0.6em;display:inline-block;vertical-align:middle;padding-bottom:0.3em;padding-left:0.3em;}
+
+.limz_button{display:inline-block;padding:0.2em 2em 0.2em;background:#f69623;color:#FFF;font-weight:600;border-bottom: 2px solid #d17922;}
+.limz_button.button_gray{background:#BEBEBE;border-bottom: 2px solid #AAA;}
+.limz_button.button_green{background:#69A833;border-bottom: 2px solid #4b842d;}
+
+
+.limz_button:hover{color:#333;}
+.mash_content .limz_button:hover{color:#333;}
+
+
+.limz_button{font-size:0.8em;}
+.limz_button .limz_button_icon{font-size: 0.8em;}
+.limz_button .limz_button_icon.left{padding-right: 0.5em;}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ tab */
+@media all and (min-width:760px) {
+    .mash_content{font-size:1.2em;}
+    .mash_content p{font-size:0.7em;line-height:1.6em;}
+    .mash_content li{font-size:0.7em;}
+    .mash_content li li{font-size:1em;}
+    .mash_content .limz_button{font-size:0.5em;}
+
+    .mash_content .limz_fontSize_master_small{font-size:0.7em;}
+    .mash_content .limz_fontSize_master_small p{font-size:0.9em;}
+    .mash_content .limz_fontSize_master_small li{font-size:0.9em;}
+    .mash_content .limz_fontSize_master_small .limz_button{font-size:0.7em;}
+    .mash_content .limz_fontSize_master_small p .limz_button{font-size:0.82em;line-height:1.3em;}
+
+}
+
+/* ++++++++++++++++++++++++++++++++++860*/
+@media all and (min-width:860px) {
+    .mash_content{font-size:1.2em;}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ desk */
+@media all and (min-width:960px) {
+    .mash_content{font-size:1.3em;}
+    #mainContentRight{float:right;width:69%;}
+    #mainContentLeft{float:left;width:69%;}
+    #sidebarRight{float:right;width:26%;}
+    #sidebarLeft{float:left;width:26%;}
+}
+/* ++++++++++++++++++++++++++++++++++1100*/
+@media all and (min-width:1100px) {
+    .mash_content{font-size:1.4em;}
+}
+/* ++++++++++++++++++++++++++++++++++1200*/
+@media all and (min-width:1200px) {
+    .mash_content{font-size:1.5em;}
+}
+/* ++++++++++++++++++++++++++++++++++1300*/
+@media all and (min-width:1300px) {
+    .mash_content{font-size:1.6em;}
+    .mash_content .limz_fontSize_master_small{font-size:0.7em;}
+}

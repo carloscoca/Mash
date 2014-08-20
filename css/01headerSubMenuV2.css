@@ -1,0 +1,105 @@
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ blog_theme */
+
+.blog_theme_main{display:none;}
+
+#blog_theme_linkList li a{color:#FFF;}
+#blog_theme_linkList li a:hover{color:#000;}
+#mashSubMenu #blog_theme_linkList li.limz_flag a{background:transparent;color:#000;}
+
+
+.blog_theme_right{float:right;width:26%;position:relative;}
+.blog_theme_image{height:4em;width:4em;position:absolute;right:0;top:4px;background-size:cover;z-index:2;}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ tab */
+@media all and (min-width:760px) {
+    .blog_theme_back{position:absolute;bottom:0; left:0; width:100%; height: 4.1em;}
+    .blog_theme_main{display:block;float:left;clear:left;width:78%;line-height:1.6em;margin:1.18em 0 0.2em 0;padding-bottom:0.12em;}
+    .blog_theme_main li{font-size:1.2em;margin-left:0.8em;}
+    .blog_theme_main h1{float:right;font-family:lane, Arial, Helvetica, sans-serif;font-size:2.5em;line-height:1em;font-weight:300;color:#FFF;}
+    #blog_theme_linkList{float:left;margin-top:0.3em;}
+
+    .blog_theme_image{height:8em;width:8em;left:50%;margin-left:-4em;top:-1.1em;background-size:cover;z-index:2;}
+    .mashSubMenuFixed .blog_theme_image{top:0;}
+}
+@media all and (min-width:960px) {
+    .blog_theme_main{width:79%;}
+}
+@media all and (min-width:1200px) {
+    .blog_theme_main{width:80%;}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ subMenu */
+
+#mashSubMenu{position:relative;float:left;clear:both;width:100%;background: url("file:///D|/Projects/img/texture.png") repeat scroll 0 0 #FFFFFF;}
+#mashSubMenu.darkTheme{background: url("file:///D|/Projects/img/textureDark.jpg") repeat scroll 0 0 #FFFFFF;}
+
+
+#mashSubMenuPlaceholder{float:left;width:100%;}
+
+#mashSubMenuContent{position:relative;float:left;width:100%;z-index:2;}
+
+
+#mashSubMenuMobileButton{display:none;}
+
+#mashSubMenu ul.subMenu{float:left;display:none;}
+#mashSubMenu li{display:block;float:left;list-style-type:none;}
+
+#mashSubMenu .limz_button{line-height:1.5em;}
+#mashSubMenu li .limz_button{float:left;font-family:lane, Helvetica, Arial, sans-serif;font-weight:400;color:#444;background:transparent;border:0 none;}
+#mashSubMenu li .limz_button:hover{color:#000;}
+
+
+
+#actionsContainer{float:right;}
+#mashSubMenu_share{float:left;cursor:pointer;}
+#mashSubMenu_share .icon-share{float:left;font-size:1.2em;color:#aeaeb0;padding-top:0.35em;}
+#mashSubMenu_share .text{float:left;font-size:0.8em;color:#636260;line-height:2.3em;margin-right:0.6em;}
+
+#mashSubMenu_share:hover .icon-share{color:#555;}
+#mashSubMenu_share:hover .text{color:#000;}
+
+
+#mashSubMenu.mashSubMenuFixed{position:fixed;top:0;left:0;width:100%;z-index:1000;margin-top:0;}
+
+
+
+@media all and (max-width:759px) {
+    #mashSubMenu{font-size:0.8em;}
+
+    #mashSubMenuMobileButton{display:block;float:left;color:#636260;font-size:0.8em;padding:1.3em 1.3em 1em 1.3em;cursor:pointer;margin-left:-1.3em;}
+
+    #mashSubMenu ul.subMenu{clear:both;margin-bottom:0.5em;}
+    #mashSubMenu li{clear:both;font-size:1.2em;line-height:1.3em;}
+    #mashSubMenu li a{font-size:1.2em;padding:0.15em 0.8em 0.2em 0;}
+    #mashSubMenu li.limz_flag a{color:#000; background:transparent !important;}
+
+    #mashSubMenu #actionsContainer .limz_button{display:none;}
+
+    #actionsContainer{padding:0.5em 0;}
+}
+
+@media all and (min-width:760px) {
+    #mashSubMenu{font-size:0.8em;}
+    #mashSubMenu_share{margin-right:0.8em;}
+
+    #mashSubMenuContent{padding:0.5em 0;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    #mashSubMenu.mashSubMenuFixed #mashSubMenuContent{padding:0.5em 0;}
+
+    #mashSubMenu ul.subMenu{display:block;}
+
+    #mashSubMenu .limz_button{font-size:1.2em;padding:0 0.8em;}
+    #mashSubMenu li.limz_flag a{background:#69a833;color:#FFF;border-bottom: 2px solid #4b842d;}
+
+    #mashSubMenu #actionsContainer .limz_button{float:right;font-weight:600;font-size:1em;line-height:1.85em;}
+
+}
+
+@media all and (min-width:960px) {
+    #mashSubMenu{font-size:1em;}
+}

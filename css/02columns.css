@@ -1,0 +1,29 @@
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ columns */
+.limz_column{float:left;position:relative;}
+
+
+
+@media all and (max-width:760px) {
+    .limz_column{width:100%;margin-bottom:4%;}
+    .limz_column.limz_last{margin-bottom:0;}
+}
+
+@media all and (min-width:760px) {
+    .limz_column_1_of_2{width:49%;margin-right:2%;}
+    .limz_column_1_of_2.limz_last{margin-right:-2px;}
+
+    .limz_column_1_of_3{width:32%;margin-right:2%}
+    .limz_column_1_of_3.limz_last{margin-right:-2px;}
+
+    .limz_column_1_of_4{width:23.5%;margin-right:2%}
+    .limz_column_1_of_4.limz_last{margin-right:-2px;}
+
+    .limz_column_3_of_4{width:74.5%;margin-right:2%}
+    .limz_column_3_of_4.limz_last{margin-right:-2px;}
+
+    .limz_column_2_of_4{width:49%;margin-right:2%}
+    .limz_column_2_of_4.limz_last{margin-right:-2px;}
+}
+
+.limz_column_right{float:right; margin-right:0;}
+.limz_column_left{float:left;}

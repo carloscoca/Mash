@@ -1,0 +1,68 @@
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ header */
+#header_html5{float:left;width:100%;}
+#header{float:left;width:100%;padding:0.5em 0 1em;border-top:2px solid #65a836;}
+
+#header_functions{display:none;}
+
+
+
+#header_main{width:100%;float:left;clear:both;}
+
+#logo{padding-bottom:5px;float:left;width:9em;}
+
+#breadcrumb{float:left;clear:both;margin-top:1em;font-size:0.8em;}
+#breadcrumb .icon-rightFull{color:#6ba736;font-size:0.7em;padding:0 0.7em;}
+
+#breadcrumb a{color:#636363;}
+#breadcrumb a.limz_last{color:#a4a4a4;}
+
+#breadcrumb a:hover{color:#000;}
+#breadcrumb a.limz_last:hover{color:#333;}
+
+#header_functions a:hover,
+#header_functions div:hover
+{color:#000;}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ header tab*/
+@media all and (min-width:760px) {
+
+    #header{padding-bottom:0;}
+
+    #logo{width:13.5em;}
+
+    #header_functions_container{display:block;float:left;width:100%;}
+    #header_functions{display:block;float:right;color:#444;line-height:28px;}
+
+    #header_functions .icon-smartphone{padding-top:5px;font-size:18px;}
+    #header_functions .mash_separator{float:left;width:15px;margin-right:15px;height:30px;border-right:1px dotted #c0c0c0;}
+
+    #header_functions span{float:left;}
+
+    #header_languageSwitcher{float:left;padding-top: 6px;margin-right:1em;cursor:pointer;}
+
+    .limz_dialog_parent{position:relative;}
+    .limz_dialog{display:none;position:absolute;top:100%;}
+
+    #header_languageSwitcher .limz_dialog{width:200px;left:-100px;padding-top:0.8em;}
+    #header_languageSwitcher .limz_dialog_content{float:left;width:200px;background:#FFF;padding:1em;}
+
+
+    #searchBox{position:relative;float:left;padding-top:6px;}
+
+    #searchBox fieldset{border:0 none;}
+    #searchBox label{display:none;}
+    #searchBox button{float:left;border:0 none;background:transparent;font-size:1em;color:#444;cursor:pointer;}
+    #searchBox input#search{float:left;width:80px; background:transparent;font-size:12px;border:0 none;border-bottom:1px solid #c0c0c0;color:#999;}
+
+    .limz_search_js{cursor:pointer;}
+    .limz_search_js .limz_dialog{padding-top:0.8em;width:250px;left:-100px;}
+    .limz_search_js .limz_dialog_content{background:#FFF;padding:1em;}
+
+    #searchBox.limz_search_js input#search{width:80%;border:1px solid #c0c0c0; font-size:1em;padding:0.08em 0.4em;}
+    #searchBox.limz_search_js button{width:18%;text-align:center;float:right;border:1px solid #c0c0c0;font-size:1em;}
+
+    #engage{position:relative;float:left;margin-left:20px;}
+    #engage .icon-person{font-size:17px;padding-top:6px;padding-right:10px;}
+    .engage_counter{font-family:Arial, sans-serif;display:block;position:absolute;top:14px;left:13px;background:#F69623;color:#FFF;font-size:8px;font-weight:bold;line-height:1;padding:0.2em;text-align:center;height:1em;width:1em;vertical-align:middle;}
+}

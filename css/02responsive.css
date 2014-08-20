@@ -1,0 +1,24 @@
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ responsive measurement */
+#limz_responsive_measurement{width:320px;}
+
+@media all and (min-width:760px) {
+    #limz_responsive_measurement{width:760px;}
+}
+@media all and (min-width:960px) {
+    #limz_responsive_measurement{width:960px;}
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ specials */
+
+@media all and (min-width:760px) {
+    .limz_absolute_fromTab{position:absolute;top:0;left:0;z-index:1;}
+}
+
+@media all and (max-width:759px)  {
+    .limz_mob_hide{display:none;}
+}
+
+@media all and (min-width:760px) and (max-width:959px)  {
+    .limz_tab_hide{display:none;}
+}

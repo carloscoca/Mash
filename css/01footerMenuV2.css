@@ -1,0 +1,66 @@
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ menu*/
+#footer_menu{display:block;float:left;margin-top:-1em;padding-top:1em;}
+#footer_menu li{float:left;list-style-type: none;}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ mob*/
+@media all and (max-width:759px) {
+
+    #footer_menu{display:block;float:left;font-size:1em;}
+
+    #footer_menu{font-weight:200;}
+    #footer_menu > li{float:left;}
+    #footer_menu > li > a{float:left;clear:both;font-size:1.2em;color:#000;}
+
+    #footer_menu .sub-menu{float:left;clear:both;margin-top:0.5em;}
+    #footer_menu .sub-menu li{float:left;margin-bottom:0.3em;clear:both;}
+    #footer_menu .sub-menu a{float:left;}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-360*/
+@media all and (max-width:359px) {
+    #footer_menu > li{clear:both}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 360*/
+@media all and (min-width:360px) and (max-width:759px) {
+    #footer_menu > li{width:50%;clear:none;}
+
+    #footer_menu > li:nth-child(3),
+    #footer_menu > li:nth-child(4){margin-top:1em;}
+
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ tab*/
+@media all and (min-width:760px) {
+    #footer_menu{font-size:0.9em;}
+
+    #footer_menu li{margin-left:2em;}
+    #footer_menu li:first-child{margin-left:0;}
+    #footer_menu li a{color:#000;font-size:1.2em;font-weight:200;float:left;}
+    #footer_menu li span{font-size:6px;color:#f99729;float:left;padding:18px 2px 2px 10px}
+
+    #footer_menu li.current-menu-item > a
+    {color:#000;}
+
+    #footer_menu li.current-menu-item span,
+    #footer_menu li.current_page_ancestor span{color:#69a733;}
+
+    #footer_menu .sub-menu{float:left;clear:both;margin-top:0.5em;}
+    #footer_menu .sub-menu li{margin-left:0;margin-bottom:0.3em;clear:both;}
+    #footer_menu .sub-menu a{color:#616161;font-size:1em;font-weight:200;}
+
+    #footer_menu .sub-menu a:hover{color:#000;}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ smallDesk*/
+@media all and (min-width:960px) {
+    #footer_menu{font-size:1em;}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ desk*/
+@media all and (min-width:1100px) {
+    #footer_menu li{margin-left:70px;}
+}
